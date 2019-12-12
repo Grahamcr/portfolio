@@ -115,6 +115,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "portolio"
+    }
+  },
+  "defaultProject": "portolio",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "less"
+    }
+  }
 }
