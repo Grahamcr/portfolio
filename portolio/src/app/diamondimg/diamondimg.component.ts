@@ -12,7 +12,8 @@ export class DiamondimgComponent implements OnInit {
   finditbw = 'assets/images/findit_bw.png';
   finditc = 'assets/images/findit.png';
   showColor = false;
-
+  title = 'Error';
+  description = 'Error Getting Description';
   ngOnInit() {
   }
 
@@ -26,6 +27,8 @@ export class DiamondimgComponent implements OnInit {
   getImgBWSrc(picName) {
     switch(picName) {
       case 'findit': {
+        this.title = 'FindIT Search';
+        this.description = 'How might change search at GE?';
         return this.finditbw;
       }
     }
