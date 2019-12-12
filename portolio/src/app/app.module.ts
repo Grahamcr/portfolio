@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { DesignbitsComponent } from './designbits/designbits.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
+import { DiamondimgComponent } from './diamondimg/diamondimg.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     AboutComponent,
     DesignbitsComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    DiamondimgComponent
   ],
   imports: [
     BrowserModule,

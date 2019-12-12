@@ -1,0 +1,9 @@
+
+<div class="small-diamond">
+    <div class="hoverLayer" (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()"></div>
+    <img class="bwImg" *ngIf="!showColor" [src]="getImgBWSrc('findit')" />
+    <img class="cImg" *ngIf="showColor" [src]="getImgCISrc('findit')" />
+    <div class="c2a-tri">
+        
+    </div>
+</div>
