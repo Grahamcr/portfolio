@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-diamondimg',
@@ -7,14 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DiamondimgComponent implements OnInit {
 
+  @Input() pic: string;
+  @Input() title: string;
+  @Input() description: string;
+  @Input() bwimage: string;
+  @Input() colorimage: string;
+  @Input() caselink: string;
   constructor() { }
-  // findit image
-  finditbw = 'assets/images/findit_bw.png';
-  finditc = 'assets/images/findit.png';
+
   showColor = false;
-  title = 'Error';
-  description = 'Error Getting Description';
+
+
   ngOnInit() {
+
   }
 
   mouseEnter() {
@@ -23,23 +28,4 @@ export class DiamondimgComponent implements OnInit {
   mouseLeave() {
     this.showColor = false;
   }
-
-  getImgBWSrc(picName) {
-    switch(picName) {
-      case 'findit': {
-        this.title = 'FindIT Search';
-        this.description = 'How might change search at GE?';
-        return this.finditbw;
-      }
-    }
-  }
-
-  getImgCISrc(picName) {
-    switch(picName) {
-      case 'findit': {
-        return this.finditc;
-      }
-    }
-  }
-
 }
