@@ -1,0 +1,10 @@
+
+<div class="large-diamond">
+        <a href="{{caselink}}" class="hoverLayer" (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()"></a>
+        <img class="bwImg" *ngIf="!showColor" [src]="bwimage" />
+        <img class="cImg" *ngIf="showColor" [src]="colorimage" />
+        <div class="c2a-tri" *ngIf="showColor">
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+        </div>
+    </div>

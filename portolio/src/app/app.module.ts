@@ -9,6 +9,8 @@ import { DesignbitsComponent } from './designbits/designbits.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { DiamondimgComponent } from './diamondimg/diamondimg.component';
+import { LargediamondComponent } from './largediamond/largediamond.component';
+import { ColordiamondComponent } from './colordiamond/colordiamond.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DiamondimgComponent } from './diamondimg/diamondimg.component';
     DesignbitsComponent,
     ContactComponent,
     HeaderComponent,
-    DiamondimgComponent
+    DiamondimgComponent,
+    LargediamondComponent,
+    ColordiamondComponent
   ],
   imports: [
     BrowserModule,
