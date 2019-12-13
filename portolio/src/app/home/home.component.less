@@ -256,3 +256,144 @@
         }
     }
 }
+
+.mobile-grid {
+    display: none;
+    @media screen and (max-width: 660px) {
+        display: block;
+    }
+    .row {
+        height: 175px;
+        margin-bottom: 10px;
+        .left {
+            float:left;
+            height:100%;
+            background-color: red;
+            margin-left: 10px;
+            &.two-thirds {
+                width: 57%;
+            }
+            &.half {
+                width:47.5%;
+            }
+            &.one-third {
+                width: 38%;
+            }
+        }
+        .right {
+            float:right;
+            height:100%;
+            background-color: green;
+            margin-right: 15px;
+            &.one-third {
+                width: 38%;
+            }
+            &.half {
+                width:47.5%;
+            }
+            &.two-thirds {
+                width: 57%;
+            }
+        }
+
+        @media screen and (max-width: 645px) {
+            .left {
+                &.two-thirds {
+                    width: 56%;
+                }
+                &.half {
+                    width:46.5%;
+                }
+                &.one-third {
+                    width: 37%;
+                }
+            }
+            .right {
+                &.one-third {
+                    width: 37%;
+                }
+                &.half {
+                    width:46.5%;
+                }
+                &.two-thirds {
+                    width: 56%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 470px) {
+            .left {
+                &.two-thirds {
+                    width: 55.5%;
+                }
+                &.half {
+                    width:46%;
+                }
+                &.one-third {
+                    width: 36.5%;
+                }
+            }
+            .right {
+                &.one-third {
+                    width: 36.5%;
+                }
+                &.half {
+                    width:46%;
+                }
+                &.two-thirds {
+                    width: 55.5%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 410px) {
+            .left {
+                &.two-thirds {
+                    width: 55%;
+                }
+                &.half {
+                    width:45.5%;
+                }
+                &.one-third {
+                    width: 36%;
+                }
+            }
+            .right {
+                &.one-third {
+                    width: 36%;
+                }
+                &.half {
+                    width:45.5%;
+                }
+                &.two-thirds {
+                    width: 55%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            .left {
+                &.two-thirds {
+                    width: 54.5%;
+                }
+                &.half {
+                    width:45%;
+                }
+                &.one-third {
+                    width: 35.5%;
+                }
+            }
+            .right {
+                &.one-third {
+                    width: 35.5%;
+                }
+                &.half {
+                    width:45%;
+                }
+                &.two-thirds {
+                    width: 54.5%;
+                }
+            }
+        }
+    }
+}
