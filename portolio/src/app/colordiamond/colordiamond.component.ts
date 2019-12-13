@@ -11,6 +11,7 @@ export class ColordiamondComponent implements OnInit {
   @Input() description: string;
   @Input() caselink: string;
   @Input() calltoaction: string;
+  @Input() color: string;
 
   constructor() { }
 
