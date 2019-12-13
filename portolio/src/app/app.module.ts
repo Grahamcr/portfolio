@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { DiamondimgComponent } from './diamondimg/diamondimg.component';
 import { LargediamondComponent } from './largediamond/largediamond.component';
 import { ColordiamondComponent } from './colordiamond/colordiamond.component';
+import { ContactblockComponent } from './contactblock/contactblock.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ColordiamondComponent } from './colordiamond/colordiamond.component';
     HeaderComponent,
     DiamondimgComponent,
     LargediamondComponent,
-    ColordiamondComponent
+    ColordiamondComponent,
+    ContactblockComponent
   ],
   imports: [
     BrowserModule,
