@@ -12,6 +12,14 @@ import { DiamondimgComponent } from './diamondimg/diamondimg.component';
 import { LargediamondComponent } from './largediamond/largediamond.component';
 import { ColordiamondComponent } from './colordiamond/colordiamond.component';
 import { ContactblockComponent } from './contactblock/contactblock.component';
+import { FordComponent } from './home/ford/ford.component';
+import { FinditComponent } from './home/findit/findit.component';
+import { ImporterComponent } from './home/importer/importer.component';
+import { SalesComponent } from './home/sales/sales.component';
+import { PonyakComponent } from './home/ponyak/ponyak.component';
+import { GhostredComponent } from './home/ghostred/ghostred.component';
+import { CoretechComponent } from './home/coretech/coretech.component';
+import { AcgmapComponent } from './home/acgmap/acgmap.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +32,15 @@ import { ContactblockComponent } from './contactblock/contactblock.component';
     DiamondimgComponent,
     LargediamondComponent,
     ColordiamondComponent,
-    ContactblockComponent
+    ContactblockComponent,
+    FordComponent,
+    FinditComponent,
+    ImporterComponent,
+    SalesComponent,
+    PonyakComponent,
+    GhostredComponent,
+    CoretechComponent,
+    AcgmapComponent
   ],
   imports: [
     BrowserModule,
