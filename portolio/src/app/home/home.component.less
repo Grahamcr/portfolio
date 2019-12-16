@@ -266,9 +266,9 @@
         height: 175px;
         margin-bottom: 10px;
         .left {
+            display: block;
             float:left;
             height:100%;
-            background-color: red;
             margin-left: 10px;
             &.two-thirds {
                 width: 57%;
@@ -281,9 +281,9 @@
             }
         }
         .right {
+            display: block;
             float:right;
             height:100%;
-            background-color: green;
             margin-right: 15px;
             &.one-third {
                 width: 38%;
@@ -293,6 +293,35 @@
             }
             &.two-thirds {
                 width: 57%;
+            }
+        }
+
+        .left, .right {
+            position: relative;
+            .overlay {
+                height:60px;
+                width:100%;
+                background-color: rgba(0,0,0,.8);
+                color:#FFF;
+                position: absolute;
+                bottom: 0px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h4 {
+                    padding: 0px;
+                    font-weight: bolder;
+                    margin-top: 10px;
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                }
+                p {
+
+                    font-size: 15px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
             }
         }
 
@@ -394,6 +423,55 @@
                     width: 54.5%;
                 }
             }
+        }
+
+        .findit {
+            background: url("/assets/images/rectImages/findit.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .ford {
+            background: url("/assets/images/rectImages/ford.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .importer {
+            background: url("/assets/images/rectImages/importer.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .sales {
+            background: url("/assets/images/rectImages/sales.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .ponyak {
+            background: url("/assets/images/rectImages/ponyak.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .ghostred {
+            background: url("/assets/images/rectImages/ghostred.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .coretech {
+            background: url("/assets/images/rectImages/coretech.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .acgMap {
+            background: url("/assets/images/rectImages/acgmap.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
     }
 }
