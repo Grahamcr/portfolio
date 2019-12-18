@@ -20,6 +20,7 @@ import { PonyakComponent } from './home/ponyak/ponyak.component';
 import { GhostredComponent } from './home/ghostred/ghostred.component';
 import { CoretechComponent } from './home/coretech/coretech.component';
 import { AcgmapComponent } from './home/acgmap/acgmap.component';
+import { HeroComponent } from './home/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AcgmapComponent } from './home/acgmap/acgmap.component';
     PonyakComponent,
     GhostredComponent,
     CoretechComponent,
-    AcgmapComponent
+    AcgmapComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
