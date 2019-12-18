@@ -3,7 +3,6 @@
     width: 100%;
     position: relative;
     top: -105px;
-    left: -5px;
     z-index: -1;
     text-align: center;
     margin: 0px;
@@ -16,6 +15,7 @@
         font-weight: 900;
         margin: 0px;
         padding:0px;
+        color:#333;
     }
     p {
         font-size: 28px;
@@ -23,6 +23,23 @@
         padding:0px;
         position: relative;
         top: 42vh;
+        color:#333;
+    }
+    a {
+        text-decoration: none;
+        position: relative;
+        top: 60vh;
+        font-size: 70px;
+        font-weight: 600;
+        &:hover {
+            color:#3AAFA9;
+            cursor: pointer;
+        }
+        i {
+            &:hover {
+                color:#3AAFA9;
+            }
+        }
     }
     &.ford {
         background: url("/assets/images/rectImages/ford.jpg");

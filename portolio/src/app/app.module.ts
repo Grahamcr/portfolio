@@ -21,6 +21,7 @@ import { GhostredComponent } from './home/ghostred/ghostred.component';
 import { CoretechComponent } from './home/coretech/coretech.component';
 import { AcgmapComponent } from './home/acgmap/acgmap.component';
 import { HeroComponent } from './home/hero/hero.component';
+import { CaseintroComponent } from './home/caseintro/caseintro.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { HeroComponent } from './home/hero/hero.component';
     GhostredComponent,
     CoretechComponent,
     AcgmapComponent,
-    HeroComponent
+    HeroComponent,
+    CaseintroComponent
   ],
   imports: [
     BrowserModule,
