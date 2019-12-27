@@ -1,30 +1,30 @@
 <app-hero 
-[title]="'How might we change search at GE?'"
-[sub]="'A case study about how UX can design both a process and a UI'"></app-hero>
+[title]="'How might we build better teams?'"
+[sub]="'A case study about how UX help establish effective teams and manage employee allocation'"
+[case]="'ponyak'"></app-hero>
 <div class="main-container">
 
     <app-caseintro 
-    [title]="'The Space Race Of Our Generation'"
-    [description]="'Imagine this, you the future of transportation rests on your shoulders and all that stands between you and changing the world is solving one of the most challenging engineering feats of all time. How might you empower your team and give them the tools they need to be successful? This question is exactly what I was given the privilege to solve. '"
-    [company]="'Ford Motor Company'"
+    [title]="'The All Seeing Ponyak'"
+    [description]="'Imagine this, you manage over 50 developers, product managers, designers and QA professionals who work on one or more projects for one or more clients.  How do you determine who would fit best on each project? What methodology do you use in order to match requirements with skills and employee preferences? Most importantly how do you make sure you will have the resources you need in order to meet customer demands? Welcome to the madness that is contract development work. '"
+    [company]="'Pillar Technology'"
     [projectapproach]="'Rapid Prototyping/Design Thinking'"
-    [roles]="['User Research','User Interviews', 'Storyboarding', 'Personas', 'Sketching', 'Wireframing', 'Visual Design', 'Interaction Design']"></app-caseintro>
+    [roles]="['User Interviews', 'Workshopping', 'Mind Mapping', 'Sketching', 'Wireframing', 'Visual Design', 'Interaction Design']"></app-caseintro>
 
     <app-problemsolution
-    [problem]="['Ford Algorithm Developers need access to very specific historical operational data in order to test changes and observe the Autonomous Vehicle fleet in real time to make observations and direct changes while the AV is operational.  Today they are leveraging cell phones to communicate with test drivers and complex database queries to multiple sources in order to retrieve historical data. ']"
-    [solution]="['Retrieving historical data was simplified by creating a powerful advanced scenario search interface with favorites for even faster results when a developer is working on the same problem over a extended period of time.  Augmenting this data is a powerful trend dashboard allowing developers to catch insights faster.  A command center style map boosted morale and established a way to access real-time tracking information. ']"
-    [team]="['The project team consisted of one UX Architect (myself) a development team of roughly four pairs of developers and one project manager. We were located on-site at Ford working closely with their AV development team.  The project ran one week long sprints with the design sprint running one sprint ahead of the development team.  My responsibilities included researching the direction of the product, developing testing plans, creating high fidelity mockups, collaborating with developers and the project manager. ']"
+    [problem]="['Pillar has three different offices, each of which serves at least five to ten different clients at a time. The result is a resource planning nightmare where project managers have to negotiate for the development and design resources they need for their project to be successful.  Pillar employees also have to constantly be their own advocate for the types of projects that support their career goals and match with their skillset. The challenge was to quickly create a internal system which could keep track of all these moving pieces and advocate for Pillar employees.']"
+    [solution]="['This was a bench project, which meant it was something I was given very little time and resources in order to complete.  Therefore I took the approach of running a Mind Mapping workshop with the internal stakeholders, followed by rapid prototype and user testing iterations.  The result is a team planning tool that makes employee’s preferences clear while giving project managers the information they need in order to make informed resource staffing decisions.']"
+    [team]="['This was a solo project I completed as a UX Architect and then handed off to a development team of two pairs.']"
     ></app-problemsolution>
 
     <app-impact
-    [stats]="[['43%','Drop in the Average Time', ' it took to Complete a Historical Data Search '],
-    ['22%','Decrease in Wait times for developers', ' waiting for real life scenarios to be run to test their code '],
-    ['5%','Decrease in The Number', ' of events captured before a bug was recognized in the AV navigation code'],
-    ['100+','Scenario Searches Saved', ' within the first month of releasing the advanced search to developers']]"
+    [stats]="[['25%','Drop in meetings', ' called to solve staffing issues '],
+    ['15%','Increase in employee satisfaction', ' with the projects they were assigned to '],
+    ['35','Projects being managed', ' in the system within the first two months of it being available']]"
     ></app-impact>
 
-    <app-old-content></app-old-content>
+    <app-oldponyak></app-oldponyak>
     
     <app-gettoknow
-    [link]="'/ponyak'"></app-gettoknow>
+    [link]="'/ghostred'"></app-gettoknow>
 </div>

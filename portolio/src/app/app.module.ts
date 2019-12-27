@@ -30,6 +30,7 @@ import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
 import { OldContentComponent } from './home/old-content/old-content.component';
 import { OldponyakComponent } from './home/ponyak/oldponyak/oldponyak.component';
 import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component';
+import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component'
     GettoknowComponent,
     OldContentComponent,
     OldponyakComponent,
-    OldfinditComponent
+    OldfinditComponent,
+    OldghostComponent
   ],
   imports: [
     BrowserModule,

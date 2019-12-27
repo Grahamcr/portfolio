@@ -1,1 +1,30 @@
-<p>ghostred works!</p>
+<app-hero 
+[title]="'How Might We Attract Top Level Talent?'"
+[sub]="'A case study about UX changed the way GE hires entry level talent'"
+[case]="'ghostred'"></app-hero>
+<div class="main-container">
+
+    <app-caseintro 
+    [title]="'NEXT GENERATION GE'"
+    [description]="'Imagine this, You work for a company so old that the most recent invention most people associate it with is the lightbulb or the dishwasher.  What if in order to support that company’s goal of becoming the AWS for the industrial Internet of Things you needed to rebrand generations of marketing to attract top level technology talent? How would you go about it?'"
+    [company]="'General Electric'"
+    [projectapproach]="'Double Diamond'"
+    [roles]="['User Research','User Interviews', 'Ethnographic Studies', 'Personas', 'Sketching', 'Wireframing', 'Visual Design', 'Interaction Design', 'A/B Testing', 'Marketing']"></app-caseintro>
+
+    <app-problemsolution
+    [problem]="['GE has a history of being a company of managers, with a average ratio of one GE employee to every five contractors.  In order to survive a transition into becoming a technology company it is going to have hire new technology talent which it can retain over a long period of time. It has a image problem and the question is if UX can be part of the answer.']"
+    [solution]="['Rebrand GE with a new edgy recruitment branch called GhostRed, which holds hackathon contests which give extravagant prizes and the opportunity to work full-time with GE. Study what makes a job opportunity attractive to our target audience and tailor an entire application process around it in order to pull in the best talent from around the world.']"
+    [team]="['Our project team consisted of one UX Sr. Researcher (myself), one Project Manager and two developers.  We were a remote team working Kanban and partnering with business leadership who served as our primary business stakeholder.']"
+    ></app-problemsolution>
+
+    <app-impact
+    [stats]="[['150+','Attend GhostReds first event', ' called GhostHack which was held in Atlanta GA'],
+    ['53','Hackers interviewed', ' in Atlanta with six offers extended on the spot'],
+    ['4','Additional events scheduled', ' in the first half of 2017 with even more hackers expected at each']]"
+    ></app-impact>
+
+    <app-oldghost></app-oldghost>
+    
+    <app-gettoknow
+    [link]="'/findit'"></app-gettoknow>
+</div>
