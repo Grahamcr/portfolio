@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ford',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ford.component.less']
 })
 export class FordComponent implements OnInit {
-
+  @Input() link: string;
   constructor() { }
 
   ngOnInit() {

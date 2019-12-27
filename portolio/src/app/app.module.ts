@@ -27,6 +27,7 @@ import { ImpactComponent } from './home/impact/impact.component';
 import { SolutionComponent } from './home/solution/solution.component';
 import { LeassonslearnedComponent } from './home/leassonslearned/leassonslearned.component';
 import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
+import { OldContentComponent } from './home/old-content/old-content.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
     ImpactComponent,
     SolutionComponent,
     LeassonslearnedComponent,
-    GettoknowComponent
+    GettoknowComponent,
+    OldContentComponent
   ],
   imports: [
     BrowserModule,
