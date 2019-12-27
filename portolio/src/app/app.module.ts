@@ -22,6 +22,12 @@ import { CoretechComponent } from './home/coretech/coretech.component';
 import { AcgmapComponent } from './home/acgmap/acgmap.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { CaseintroComponent } from './home/caseintro/caseintro.component';
+import { ProblemsolutionComponent } from './home/problemsolution/problemsolution.component';
+import { ImpactComponent } from './home/impact/impact.component';
+import { SolutionComponent } from './home/solution/solution.component';
+import { LeassonslearnedComponent } from './home/leassonslearned/leassonslearned.component';
+import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
+import { ImpactstatComponent } from './home/impact/impactstat/impactstat.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +50,13 @@ import { CaseintroComponent } from './home/caseintro/caseintro.component';
     CoretechComponent,
     AcgmapComponent,
     HeroComponent,
-    CaseintroComponent
+    CaseintroComponent,
+    ProblemsolutionComponent,
+    ImpactComponent,
+    SolutionComponent,
+    LeassonslearnedComponent,
+    GettoknowComponent,
+    ImpactstatComponent
   ],
   imports: [
     BrowserModule,

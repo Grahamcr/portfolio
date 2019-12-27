@@ -1,0 +1,66 @@
+<div class="impact-wrapper case-width">
+    <h3>THE IMPACT</h3>
+
+    <div class="stat-block">
+        <div *ngFor="let row of stats; let r = index">
+                <div class="stat-line">
+                    <div *ngFor="let stat of row; let i = index">
+                        <div *ngIf="i == 0">
+
+                            <div *ngIf="r == 0">
+                                <div class="circle-stat blueOne">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+
+                            <div *ngIf="r == 1">
+                                <div class="circle-stat blueTwo">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+
+                            <div *ngIf="r == 2">
+                                <div class="circle-stat blueThree">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+
+                            <div *ngIf="r == 3">
+                                <div class="circle-stat blueOne">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+
+                            <div *ngIf="r == 4">
+                                <div class="circle-stat blueTwo">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+
+                            <div *ngIf="r == 5">
+                                <div class="circle-stat blueThree">
+                                        <h3>{{stat}}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <p class="stat-content">
+                    
+                        <span *ngFor="let stat of row; let q = index">
+                            <span *ngIf="q == 1">
+                                <span class="left">{{stat}}</span>
+                            </span>
+                            <span *ngIf="q == 2">
+                                <span class="right">{{stat}}</span>
+                            </span>
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+
+    </div>
+    
+</div>
+
