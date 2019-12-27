@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-problemsolution',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./problemsolution.component.less']
 })
 export class ProblemsolutionComponent implements OnInit {
+  @Input() solution: string;
+  @Input() problem: string;
+  @Input() team: string;
 
   constructor() { }
 

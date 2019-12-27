@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Stat } from './stat.model';
+
 @Component({
   selector: 'app-impact',
   templateUrl: './impact.component.html',
