@@ -1,1 +1,30 @@
-<p>findit works!</p>
+<app-hero 
+[title]="'How might we change search at GE?'"
+[sub]="'A case study about how UX can design both a process and a UI'"
+[case]="'findit'"></app-hero>
+<div class="main-container">
+
+    <app-caseintro 
+    [title]="'Work Just Got Easier'"
+    [description]="'You need to find a very specific bit of information within a company intranet which supports over 500,000 employees.  Let’s make this information even worse and let us pretend that information doesn’t even exist in digital form and what you actually have to find is the right person to talk to.  This is the situation that thousands of GE employees found themselves in everyday. How do you solve it? '"
+    [company]="'Ford Motor Company'"
+    [projectapproach]="'Rapid Prototyping/Design Thinking'"
+    [roles]="['User Research','User Interviews', 'A/B Testing', 'Personas', 'Sketching', 'Wireframing', 'Visual Design', 'Interaction Design']"></app-caseintro>
+
+    <app-problemsolution
+    [problem]="['Too much information at GE is what is known as Tribal Knowledge.  In other words the only way to find out the information you need is to either have been already taught it by someone else or to find a person who knows the answer.  This isn’t exactly a scalable solution, especially not for 500,000 employees.  So, how might we solve the Tribal Knowledge problem?']"
+    [solution]="['Create a search interface that doesn’t just work on a few key words, but uses fuzzy string mapping to use all of the information a user gives us to match them with the person or digital bit of information most likely to help them.  Change search so that we encourage very long search strings and ask users what information they know so we can put others in touch with them for help. ']"
+    [team]="['Our project team consisted of one UX Sr. Researcher (myself), one Project Manager and two developers.  We were a remote team working Kanban and partnering with business leadership who served as our primary business stakeholder.']"
+    ></app-problemsolution>
+
+    <app-impact
+    [stats]="[['25%','Drop in the Average Time', ' it took to an employee to find the information they were looking for '],
+    ['50%','Increase in the Accuracy', ' of the search results returned to the user '],
+    ['32%','Decrease in The Number', ' of unsuccessful searches where the user gave up before finding the information they needed']]"
+    ></app-impact>
+
+    <app-oldfindit></app-oldfindit>
+    
+    <app-gettoknow
+    [link]="'/ford'"></app-gettoknow>
+</div>

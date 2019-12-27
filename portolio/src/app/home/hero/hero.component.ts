@@ -9,6 +9,7 @@ export class HeroComponent implements OnInit {
 
   @Input() title: string;
   @Input() sub: string;
+  @Input() case: string;
 
   constructor() { }
 

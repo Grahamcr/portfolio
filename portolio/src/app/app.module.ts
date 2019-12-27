@@ -28,6 +28,8 @@ import { SolutionComponent } from './home/solution/solution.component';
 import { LeassonslearnedComponent } from './home/leassonslearned/leassonslearned.component';
 import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
 import { OldContentComponent } from './home/old-content/old-content.component';
+import { OldponyakComponent } from './home/ponyak/oldponyak/oldponyak.component';
+import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { OldContentComponent } from './home/old-content/old-content.component';
     SolutionComponent,
     LeassonslearnedComponent,
     GettoknowComponent,
-    OldContentComponent
+    OldContentComponent,
+    OldponyakComponent,
+    OldfinditComponent
   ],
   imports: [
     BrowserModule,
