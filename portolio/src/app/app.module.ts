@@ -31,6 +31,8 @@ import { OldContentComponent } from './home/old-content/old-content.component';
 import { OldponyakComponent } from './home/ponyak/oldponyak/oldponyak.component';
 import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component';
 import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
+import { OldcoretechComponent } from './home/coretech/oldcoretech/oldcoretech.component';
+import { EmptystateComponent } from './emptystate/emptystate.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +64,9 @@ import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
     OldContentComponent,
     OldponyakComponent,
     OldfinditComponent,
-    OldghostComponent
+    OldghostComponent,
+    OldcoretechComponent,
+    EmptystateComponent
   ],
   imports: [
     BrowserModule,

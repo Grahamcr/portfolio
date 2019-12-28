@@ -12,6 +12,7 @@ import { GhostredComponent } from './home/ghostred/ghostred.component';
 import { ImporterComponent } from './home/importer/importer.component';
 import { PonyakComponent } from './home/ponyak/ponyak.component';
 import { SalesComponent } from './home/sales/sales.component';
+import { EmptystateComponent } from './emptystate/emptystate.component';
 
 
 const routes: Routes = [{path: 'about', component: AboutComponent},
@@ -26,6 +27,7 @@ const routes: Routes = [{path: 'about', component: AboutComponent},
                         {path: 'importer', component: ImporterComponent},
                         {path: 'ponyak', component: PonyakComponent},
                         {path: 'sales', component: SalesComponent},
+                        {path: 'empty', component: EmptystateComponent},
                         {path: 'portfolio', redirectTo: '', pathMatch: 'full'},
                         {path: '', component: HomeComponent, pathMatch: 'full'}];
 
