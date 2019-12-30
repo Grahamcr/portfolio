@@ -16,4 +16,9 @@ export class HeroComponent implements OnInit {
   ngOnInit() {
   }
 
+  scroll() {
+    let element = document.getElementById('target');
+    element.scrollIntoView({behavior: 'smooth'});
+  }
+
 }
