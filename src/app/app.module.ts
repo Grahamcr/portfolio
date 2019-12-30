@@ -34,6 +34,8 @@ import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
 import { OldcoretechComponent } from './home/coretech/oldcoretech/oldcoretech.component';
 import { EmptystateComponent } from './emptystate/emptystate.component';
 import { KiwiComponent } from './designbits/kiwi/kiwi.component';
+import { SimplecaseintroComponent } from './home/simplecaseintro/simplecaseintro.component';
+import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { KiwiComponent } from './designbits/kiwi/kiwi.component';
     OldghostComponent,
     OldcoretechComponent,
     EmptystateComponent,
-    KiwiComponent
+    KiwiComponent,
+    SimplecaseintroComponent,
+    DbgettoknowComponent
   ],
   imports: [
     BrowserModule,
