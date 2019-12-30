@@ -33,6 +33,7 @@ import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component'
 import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
 import { OldcoretechComponent } from './home/coretech/oldcoretech/oldcoretech.component';
 import { EmptystateComponent } from './emptystate/emptystate.component';
+import { KiwiComponent } from './designbits/kiwi/kiwi.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { EmptystateComponent } from './emptystate/emptystate.component';
     OldfinditComponent,
     OldghostComponent,
     OldcoretechComponent,
-    EmptystateComponent
+    EmptystateComponent,
+    KiwiComponent
   ],
   imports: [
     BrowserModule,
