@@ -14,6 +14,7 @@ import { PonyakComponent } from './home/ponyak/ponyak.component';
 import { SalesComponent } from './home/sales/sales.component';
 import { EmptystateComponent } from './emptystate/emptystate.component';
 import { KiwiComponent } from './designbits/kiwi/kiwi.component';
+import { CtnpComponent } from './designbits/ctnp/ctnp.component';
 
 
 const routes: Routes = [{path: 'about', component: AboutComponent},
@@ -30,6 +31,7 @@ const routes: Routes = [{path: 'about', component: AboutComponent},
                         {path: 'sales', component: SalesComponent},
                         {path: 'empty', component: EmptystateComponent},
                         {path: 'kiwi', component: KiwiComponent},
+                        {path: 'ctnp', component: CtnpComponent},
                         {path: 'portfolio', redirectTo: '', pathMatch: 'full'},
                         {path: '', component: HomeComponent, pathMatch: 'full'}];
 

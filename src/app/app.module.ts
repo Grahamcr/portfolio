@@ -36,6 +36,7 @@ import { EmptystateComponent } from './emptystate/emptystate.component';
 import { KiwiComponent } from './designbits/kiwi/kiwi.component';
 import { SimplecaseintroComponent } from './home/simplecaseintro/simplecaseintro.component';
 import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.component';
+import { CtnpComponent } from './designbits/ctnp/ctnp.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.compo
     EmptystateComponent,
     KiwiComponent,
     SimplecaseintroComponent,
-    DbgettoknowComponent
+    DbgettoknowComponent,
+    CtnpComponent
   ],
   imports: [
     BrowserModule,
