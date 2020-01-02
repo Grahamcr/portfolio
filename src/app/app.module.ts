@@ -27,7 +27,6 @@ import { ImpactComponent } from './home/impact/impact.component';
 import { SolutionComponent } from './home/solution/solution.component';
 import { LeassonslearnedComponent } from './home/leassonslearned/leassonslearned.component';
 import { GettoknowComponent } from './home/gettoknow/gettoknow.component';
-import { OldContentComponent } from './home/old-content/old-content.component';
 import { OldponyakComponent } from './home/ponyak/oldponyak/oldponyak.component';
 import { OldfinditComponent } from './home/findit/oldfindit/oldfindit.component';
 import { OldghostComponent } from './home/ghostred/oldghost/oldghost.component';
@@ -37,6 +36,7 @@ import { KiwiComponent } from './designbits/kiwi/kiwi.component';
 import { SimplecaseintroComponent } from './home/simplecaseintro/simplecaseintro.component';
 import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.component';
 import { CtnpComponent } from './designbits/ctnp/ctnp.component';
+import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +65,6 @@ import { CtnpComponent } from './designbits/ctnp/ctnp.component';
     SolutionComponent,
     LeassonslearnedComponent,
     GettoknowComponent,
-    OldContentComponent,
     OldponyakComponent,
     OldfinditComponent,
     OldghostComponent,
@@ -74,7 +73,8 @@ import { CtnpComponent } from './designbits/ctnp/ctnp.component';
     KiwiComponent,
     SimplecaseintroComponent,
     DbgettoknowComponent,
-    CtnpComponent
+    CtnpComponent,
+    TwopicwidgetComponent
   ],
   imports: [
     BrowserModule,
