@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ImpactComponent implements OnInit {
   @Input() stats: [string[][]];
+  @Input() title: string;
   constructor() { }
 
   ngOnInit() {
