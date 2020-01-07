@@ -4,7 +4,7 @@
 [case]="'ponyak'"></app-hero>
 <div class="main-container">
 
-    <app-caseintro [title]="'The Impact'"
+    <app-caseintro 
     [title]="'The All Seeing Ponyak'"
     [description]="'Imagine this, you manage over 50 developers, product managers, designers and QA professionals who work on one or more projects for one or more clients.  How do you determine who would fit best on each project? What methodology do you use in order to match requirements with skills and employee preferences? Most importantly how do you make sure you will have the resources you need in order to meet customer demands? Welcome to the madness that is contract development work. '"
     [company]="'Pillar Technology'"
@@ -17,7 +17,7 @@
     [team]="['This was a solo project I completed as a UX Architect and then handed off to a development team of two pairs.']"
     ></app-problemsolution>
 
-    <app-impact
+    <app-impact [title]="'The Impact'"
     [stats]="[['25%','Drop in meetings', ' called to solve staffing issues '],
     ['15%','Increase in employee satisfaction', ' with the projects they were assigned to '],
     ['35','Projects being managed', ' in the system within the first two months of it being available']]"
