@@ -15,6 +15,7 @@ import { SalesComponent } from './home/sales/sales.component';
 import { EmptystateComponent } from './emptystate/emptystate.component';
 import { KiwiComponent } from './designbits/kiwi/kiwi.component';
 import { CtnpComponent } from './designbits/ctnp/ctnp.component';
+import { BlogComponent } from './designbits/blog/blog.component';
 
 
 const routes: Routes = [{path: 'about', component: AboutComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [{path: 'about', component: AboutComponent},
                         {path: 'empty', component: EmptystateComponent},
                         {path: 'kiwi', component: KiwiComponent},
                         {path: 'ctnp', component: CtnpComponent},
+                        {path: 'blog', component: BlogComponent},
                         {path: 'portfolio', redirectTo: '', pathMatch: 'full'},
                         {path: '', component: HomeComponent, pathMatch: 'full'}];
 

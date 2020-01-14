@@ -37,6 +37,7 @@ import { SimplecaseintroComponent } from './home/simplecaseintro/simplecaseintro
 import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.component';
 import { CtnpComponent } from './designbits/ctnp/ctnp.component';
 import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.component';
+import { BlogComponent } from './designbits/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.componen
     SimplecaseintroComponent,
     DbgettoknowComponent,
     CtnpComponent,
-    TwopicwidgetComponent
+    TwopicwidgetComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
