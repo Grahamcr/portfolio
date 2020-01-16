@@ -9,12 +9,12 @@
     [description]="'Imagine that you are an account manager responsible for maintaining the mobile environments for 10 or more companies each month. Each customer can have multiple accounts, some with only a few hundred lines and some with over 100,000. Every month it is your responsibility to load the invoices into your companies system, manage that data for accuracy and then use it to generate savings.  The more you save your customer the more your employer will earn (and ultimately the more you will get paid).  How would you break this task down into manageable steps and create an experience which will both improve the time to task completion and the accuracy of the data the process produces?'"
     [company]="'vMOX'"
     [projectapproach]="'Double Diamond'"
-    [roles]="['Discovery Interviews', 'User Testing','Project Management', 'Requirements Gathering', 'Personas', 'Storymapping', 'Sketching', 'Wireframing', 'Visual Design', 'Interaction Design']"></app-caseintro>
+    [roles]="['Discovery Interviews', 'User Testing','Project Management', 'Requirements Gathering', 'Personas', 'Storymapping', 'Sketching', 'Wireframing', 'A/B Testing', 'Interaction Design']"></app-caseintro>
 
     <app-problemsolution
-    [problem]="['']"
-    [solution]="['']"
-    [team]="['']"
+    [problem]="['Each month Account Managers at vMOX are required to optimize their customer/’s cellular environments to ensure that the plans the customer is paying for meet, but do not exceed their needs.  The average Account Manager at vMOX manages anywhere from 6 to 10 customers, each who could have as many as five accounts and thousands of phone lines.  The first step in this process is to upload the customer’s invoice and map it into the vMOX system so the Account Manager can start the optimization process. Before my redesign of the importer it would take a Senior Account Manager an average of 25 minutes to upload a invoice.']"
+    [solution]="['The Double Diamond approach I took to solving this challenge brought to the light the biggest challenge for Account Managers was trusting the system.  Account Managers did not believe the data they were looking at was accurate and that the system could be relied on to produce accurate calculations they could base decisions off of.  I was able to increase Account Manager trust in the system by giving them quick access to supporting data and displaying high level statistics throughout the process.  As a result, I was able to advocate for automating a lot of the importer process, which allowed the Account Managers to switch from fulling a role which required a lot of active engagement to one of a reviewer and approver of what the system had already done on their behalf.  The result is a faster and more accurate process which gives the Account Managers back time they can spend on meeting our customers needs in other ways. ']"
+    [team]="['This was an independent project where I worked alone with the stakeholders to gather requirements and develop a solution.  I also partnered with our internal development team throughout the project to hand off my designs and answer any questions they had. ']"
     ></app-problemsolution>
 
     <app-impact [title]="'The Impact'"
@@ -25,7 +25,28 @@
         <div class="case-width">
             <h3>THE RESEARCH</h3>
         
-            <p></p>
+            <p>vMOX makes a profit by optimizing their customers’ cell phone plans according to the usage their employees encounter each month. For every dollar vMOX manages to save their customers they take a percentage of that savings as their own profit.  The first and arguably most important step in the optimizing process is to take the customer’s monthly invoice and accurately map it into the vMOX system so that data can be used to generate a new solution for that month.  Should parts of an invoice be loaded incorrectly the effects can be costly, including a loss of profit or a disruption of service for the customer.  </p>
+            <p>The process of importing a bill is unfortunately not as simple as selecting a file on a computer and uploading it to the vMOX system.  Therefore, in order to make sure I understood both the current importer process and the goals/pain points of the Account Managers who import as many as 30 invoices a month I ran a one-week discovery sprint. During this time I interviewed five Account Managers, the Product Owner and the Director of Operations who oversees the Account Management team.  I organized the information from these interviews into three different artifacts: a Mind Map, a Story Map and two Personas. </p>
+
+            <div class="image-container">
+                <h5>Mind Map</h5>
+                <img src="assets/images/ImporterAssets/mindMap.png"/>
+            </div>
+
+            <div class="image-container">
+                <h5>Story Map</h5>
+                <img src="assets/images/ImporterAssets/storymap.png"/>
+            </div>
+
+            <div class="image-container">
+                <h5>Persona (A)</h5>
+                <img src="assets/images/ImporterAssets/persona1.png"/>
+            </div>
+
+            <div class="image-container">
+                <h5>Persona (B)</h5>
+                <img src="assets/images/ImporterAssets/persona2.png"/>
+            </div>
 
 
         </div>
@@ -34,7 +55,23 @@
     <div class="new-section">
         <div class="case-width">
             <h3>HYPOTHESIS</h3>
-            <p></p>
+
+            <p>The primary takeaway from my discovery research efforts was the <span class="bold"> emergence of multiple solution hypothesis</span>: 1) A System Guided Wizard Approach and 2) A Self Guided Workspace Approach.</p>
+            <p>The invoice importer is a complex process, suggesting a Wizard would be beneficial design pattern as a Wizard intuitively takes a large complex task and breaks it down into smaller, more manageable bits.  However, Wizards have the draw back of becoming ineffective for tasks which are repeated often as users grow to no longer require the system to guide them through the process after having completed the same task so many times. Given Account Managers complete 30 or more invoice imports a month, a system guided Wizard approach may quickly become tedious.  </p>
+            <p>It was also possible that users would be faster and more accurate over time with something closer to a workspace approach where they are given the ability to prioritize and complete their work in the way they see fit. While this may be a complex experience for a first-time user, a veteran Account Manager would be able to quickly manipulate the data using their expertise and not be hindered by the system working to hard to help them.  </p>
+            <p>An issue which would be consistent with either approach was the users lack of trust in the system.  Our goal for this project was to increase the speed and accuracy which Account Managers could process complex invoices.  In order to meet those goals I was going to have to improve the relationship between the user and the system with the hopes of reducing the amount of human involvement required to process a bill.  The less engaged a user has to be and the more they can trust the system to take actions on their behalf the faster and more consistent the import process will be.</p>
+            <p>The natural next step was to create a A/B Test to answer these outstanding questions.  To facilitate this a I created a test plan of scenarios based on the common tasks and goals I heard from users throughout the discovery process.</p>
+
+            <div class="image-container">
+                <img src="assets/images/ImporterAssets/testKit.png"/>
+            </div>
+
+            <p>Using everything I had learned to this point I created two clickable in-browser mockups using Axure which my test participants could use to complete each of the scenarios outlined in the test plan.  The first mockup took the system guided wizard approach and focused on exposing supporting information to the user in order to facilitate trust.  The second mockup used a self guided workspace approach with system generated confidence scores to help build trust in the decisions made by the system. </p>
+
+            <div class="image-container">
+                <img src="assets/images/ImporterAssets/abTestPlan.png"/>
+            </div>
+
         </div>
     </div>
 
@@ -44,7 +81,7 @@
         <div class="case-width">
             <h3>SOLUTION</h3>
             
-            <p>The final solution is limited interactive auto-forwarding set of provider coverage maps with supporting details shown in a attractive left side flyout. The users can control which region they are viewing from a pinned navigation pane at the bottom of the screen. The map also goes for the wow factor by displaying all of the providers spread across the world at once when the map first loads. </p>
+            <p>The final solution  </p>
             <div class="video-container">
                 <video width="100%" controls>
                         <source src="assets/images/acgmapAssets/finalvideo.mp4" type="video/mp4">
@@ -58,9 +95,7 @@
     <div class="new-section grey">
         <div class="case-width">
             <h3>CHALLENGES AND LESSONS LEARNED</h3>
-            <p>The biggest challenge for this project was working without access to the users.  As a UX professional the best way to set design direction and to defend a design decisions is to base them on strong user research data.  There will always be a balance between business, technology and UX, but it is very difficult to strike the correct balance when UX is advocating for a user which has not been researched. </p>
-            <p>The next challenge was facilitating concenious between the stakeholders.  This was the primary theme of the project as I went through each iteration; providing a means for the stakeholders to envision the solution and come to an agreement on just what that solution should be.  Being able to present the stakeholders with clickable mockups each iteration went a long way to help them visualize the potential solutions, but I know I could have driven conversations better.</p>
-            <p>In the end I believe that this project resulted in a solution which met the goals we set out to achieve and did so within the timeframe allowed to complete it.</p>
+            <p></p>
         </div>
     </div>
     
