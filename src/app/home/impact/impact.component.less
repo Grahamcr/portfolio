@@ -5,6 +5,15 @@
     h3 {
         font-weight: 900;
         font-size: 32px;
+
+        @media screen and (max-width:880px) {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        @media screen and (max-width:480px) {
+            font-size: 28px;
+            margin-bottom: 50px;
+        }
     }
 
     .stat-block {
@@ -13,7 +22,12 @@
             height: 80px;
             margin-bottom: 40px;
             display: flex;
+            position: relative;
 
+            @media screen and (max-width:480px) {
+                height: auto;
+                margin-bottom: 115px;
+            }
             
             .circle-stat {
                 width: 80px;
@@ -41,10 +55,29 @@
                     color: #FFF;
                     font-weight: 900;
                     font-size: 28px;
+                    @media screen and (max-width:880px) {
+                        margin-top: 45px;
+                    }
                 }
+
+                @media screen and (max-width:480px) {
+                    clear: both;
+                    float: none;
+                    position: absolute;
+                    margin-left: -40px;
+                    left: 50%;
+                }
+
             }
             .stat-content {
                 font-size: 18px;
+
+                @media screen and (max-width:480px) {
+                    position: relative;
+                    top: 80px;
+                    text-align: justify;
+                }
+
                 .left {
                     font-weight: bold;
                 }
