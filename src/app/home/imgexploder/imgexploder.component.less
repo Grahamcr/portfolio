@@ -7,6 +7,9 @@
     background-color: rgba(0, 0, 0, .7);
     overflow-y: auto;
     z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     a {
         position: fixed;
         top: 20px;
@@ -29,10 +32,12 @@
     img {
         padding-top: 30px;
         padding-bottom: 30px;
-        width: 90%;
+        max-width: 90%;
         cursor: url('/assets/images/minus_cursor.png') 25 25, auto;
     }
 }
 .blowupimg {
     cursor: url('/assets/images/plus_cursor.png') 25 25, auto;
+    width: 90%;
+    margin-left: 5%;
 }
