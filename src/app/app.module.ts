@@ -38,6 +38,7 @@ import { DbgettoknowComponent } from './designbits/dbgettoknow/dbgettoknow.compo
 import { CtnpComponent } from './designbits/ctnp/ctnp.component';
 import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.component';
 import { BlogComponent } from './designbits/blog/blog.component';
+import { ImgexploderComponent } from './home/imgexploder/imgexploder.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { BlogComponent } from './designbits/blog/blog.component';
     DbgettoknowComponent,
     CtnpComponent,
     TwopicwidgetComponent,
-    BlogComponent
+    BlogComponent,
+    ImgexploderComponent
   ],
   imports: [
     BrowserModule,

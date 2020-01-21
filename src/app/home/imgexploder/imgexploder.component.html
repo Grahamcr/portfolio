@@ -1,0 +1,5 @@
+<div *ngIf="showoverlay" class="overlay">
+    <img src={{imgsrc}} (click)="close()"/>
+</div>
+
+<img class="blowupimg" src={{imgsrc}} (click)="open()"/>
