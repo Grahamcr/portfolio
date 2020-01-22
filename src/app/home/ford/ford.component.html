@@ -61,19 +61,6 @@
             
             <app-twopicwidget [imgone]="'/assets/images/FordAssets/homescreenlow.png'" [imgtwo]="'/assets/images/FordAssets/SearchResultslow.png'"> </app-twopicwidget>
 
-            <p>Next I wanted to test how I thought users would benefit from interacting with our new data discovery and testing tool.  Since our users were having difficultly imagining what those interactions might look like I decided to go back to our users with storyboards.  These storyboards gave me a tool which I could use to help our users picture how they might use our solution in some of the common scenarios I identified in the discovery interviews. </p>
-
-            <div class="image-container">
-                <app-imgexploder [imgsrc]="'assets/images/oldPortfolio/caseStudies/av/joe_storyboard_v2.png'"></app-imgexploder>
-                
-            </div>
-
-            <p>Using the storyboards as a discussion tool led to more valuable insights which I was able to translate into actionable design goals my solution should achieve for each persona.  Below is an example of the type of information I was able to gather for the primary persona (Auggie, our Algorithm Developer):</p>
-
-            <div class="image-container">
-                <app-imgexploder [imgsrc]="'assets/images/oldPortfolio/caseStudies/av/auggiesgoals.png'"></app-imgexploder>
-            </div>
-
             <p>Feedback from our users focused on two areas: 1) the Advanced Search capabilities were not nearly complex enough to handle the type of queries the developers were running and 2) the developers would benefit from a more data and trend information when viewing a event. </p>
             <p>The first point sent me back to the drawing board to come up with a manageable way to display close to 100 categories of data that would be either included or excluded and then either logically 'OR'd' or 'AND'D' with other categories. To manage this complex structure I created a filterable and sortable tree hierarchy which the developers could easily map too.  This structure then became the new Advanced Search. </p>
             <p>The second point focused on another time-intentisive task our users cared a lot about and which was related to data comprehension was pattern recognition.  Therefore, I proposed building out additional functionality that would use machine learning to help the developers and testers find patterns easily.  The design would push these insights to users by finding related issues automatically and providing relevant statistics which would help the user connect the dots between multiple events.   </p>

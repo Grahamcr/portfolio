@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ImgexploderComponent implements OnInit {
   @Input() imgsrc: string;
+  @Input() padding: string;
   showoverlay = false;
   constructor() { }
 
