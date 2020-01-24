@@ -39,6 +39,7 @@ import { CtnpComponent } from './designbits/ctnp/ctnp.component';
 import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.component';
 import { BlogComponent } from './designbits/blog/blog.component';
 import { ImgexploderComponent } from './home/imgexploder/imgexploder.component';
+import { MapComponent } from './designbits/map/map.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { ImgexploderComponent } from './home/imgexploder/imgexploder.component';
     CtnpComponent,
     TwopicwidgetComponent,
     BlogComponent,
-    ImgexploderComponent
+    ImgexploderComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
