@@ -87,7 +87,7 @@ import { APP_BASE_HREF } from '@angular/common';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/portfolio'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
