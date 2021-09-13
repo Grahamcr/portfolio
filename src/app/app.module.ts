@@ -40,6 +40,7 @@ import { TwopicwidgetComponent } from './home/twopicwidget/twopicwidget.componen
 import { BlogComponent } from './designbits/blog/blog.component';
 import { ImgexploderComponent } from './home/imgexploder/imgexploder.component';
 import { MapComponent } from './designbits/map/map.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [
